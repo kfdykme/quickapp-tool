@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle kfdykme-quickapp-tool",
+        "command": "kfdykme-quickapp-tool:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "kfdykme-quickapp-tool",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "kfdykme-quickapp-tool:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
